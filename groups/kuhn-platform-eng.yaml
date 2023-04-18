@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: kuhn-platform-eng
+  description: TAS Developer Experiences Team
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-a@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: development
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tehkuhnz
+spec:
+  profile:
+    displayName: Nick Kuhn
+    email: Nick@kuhn-labs.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [kuhn-platform-eng]

@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-music-homelab
+  description: Spring Music in the homelab
+  tags:
+    - java
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=spring-music-homelab'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://spring-music-homelab.apps.tas-kdc.kuhn-labs.com/api-docs/
+      title: 'Spring Music'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: kuhn-platform-eng
+  system: kuhn-homelab-apps

@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: kuhn-homelab-apps
+  description: Apps in kuhn-labs homelab
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: kuhn-platform-eng
+  domain: kuhn-labs-domain

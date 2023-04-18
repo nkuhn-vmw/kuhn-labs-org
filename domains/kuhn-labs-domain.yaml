@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: kuhn-labs-domain
+  description: Everything related to kuhn-labs
+  links:
+    - url: https://tehkuhnz.io/
+      title: Domain Readme
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: kuhn-platform-eng
