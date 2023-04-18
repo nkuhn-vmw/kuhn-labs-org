@@ -7,7 +7,7 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./components/kuhn-labs/node-express-tas.yaml
-    - ./components/apps-manager/apps-kuhn-labs.yaml
-    - ./groups/org.yaml
-    - ./systems/amjs-test-space.yaml
+    - ./components/spring-music/spring-music.yaml
+    - ./domains/kuhn-labs-domain.yaml
+    - ./groups/kuhn-platform-eng.yaml
+    - ./systems/kuhn-homelab-apps.yaml
