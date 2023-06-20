@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: kuhn-labs
+  description: A sample catalog for the TAS Portal
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/spring-music/spring-music-2.yaml
+    - ./domains/kuhn-labs-domain.yaml
+    - ./groups/kuhn-platform-eng.yaml
+    - ./systems/kuhn-homelab-apps.yaml
