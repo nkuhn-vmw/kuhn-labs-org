@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: spring-music-homelab
+  name: spring-music-homelab-2
   description: Spring Music in the homelab
   tags:
     - java
